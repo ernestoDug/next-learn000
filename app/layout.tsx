@@ -1,3 +1,6 @@
+import '/app/ui/global.css'
+
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <h1 className="text-blue-500">Маленькі кроки</h1>
+        {children}</body>
     </html>
   );
 }
