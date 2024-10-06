@@ -49,7 +49,7 @@ export default function Page() {
         alt="Screenshots of the dashboard project showing desktop version"
       />
       {/* мобілка */}
-
+  
       <Image
         src="/hero-mobile.png"
         width={560}
