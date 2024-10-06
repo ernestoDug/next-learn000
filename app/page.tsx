@@ -3,6 +3,12 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 // імпортую стилі для модулів 
 import styles from '@/app/ui/home.module.css';
+// додатковий шрифт 
+import { lusitana } from '@/app/ui/fonts';
+// адаптиви
+import Image from 'next/image';
+
+
 
 
 export default function Page() {
@@ -16,7 +22,8 @@ export default function Page() {
         
         <div className={styles.shape} />
         {/* назва імпорта а шейп то клас  */}
-        <p className={styles.myCls}>мій клас модуль стиль</p>
+        <p className={`${lusitana.className} styles.myсls`}>мій клас модуль стиль</p>
+        {/* зверни увагу два класи в скислих лапках один для шрифту лустіна другий мій  */}
 
 
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
@@ -33,7 +40,32 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* Add Hero Images Here */}
+      {/* десктоп */}
+      <Image
+        src="/hero-desktop.png"
+        width={1000}
+        height={760}
+        className="hidden md:block"
+        alt="Screenshots of the dashboard project showing desktop version"
+      />
+      {/* мобілка */}
+
+      <Image
+        src="/hero-mobile.png"
+        width={560}
+        height={620}
+        className="block md:hidden"
+        alt="Screenshots of the dashboard project showing mobile version"
+      />
+{/* 
+Префікс точки зупину	Мінімальна ширина	CSS
+sm	640 пікселів	@media (min-width: 640px) { ... }
+md	768 пікселів	@media (min-width: 768px) { ... }
+lg	1024 пікселів	@media (min-width: 1024px) { ... }
+xl	1280 пікселів	@media (min-width: 1280px) { ... }
+2xl	1536 пікселів	@media (min-width: 1536px) { ... } */}
+
+
         </div>
       </div>
     </main>

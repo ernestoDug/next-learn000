@@ -1,4 +1,6 @@
 import '@/app/ui/global.css'
+import { inter } from '@/app/ui/fonts';
+
 
 
 export default function RootLayout({
@@ -8,9 +10,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-      <h1 className="text-blue-500">Маленькі кроки</h1>
-        {children}</body>
+      <body className={`${inter.className} antialiased`}>
+        {/* інтер шрифт для баді  */}
+        
+     <h1 className="text-blue-500">Маленькі кроки</h1>
+        {children}
+        </body>
     </html>
   );
 }
