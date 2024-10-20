@@ -6,17 +6,20 @@ export const formatCurrency = (amount: number) => {
     currency: 'USD',
   });
 };
-
 export const formatDateToLocal = (
   dateStr: string,
-  locale: string = 'en-US',
+  locale: string = 'un-US',
 ) => {
   const date = new Date(dateStr);
+  
   const options: Intl.DateTimeFormatOptions = {
     day: 'numeric',
     month: 'short',
     year: 'numeric',
   };
+  // console.log(date.toLocaleDateString('en-US', options));
+
+  
   const formatter = new Intl.DateTimeFormat(locale, options);
   return formatter.format(date);
 };

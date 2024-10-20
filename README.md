@@ -16,11 +16,11 @@
   <!-- l для роботи з бд створити тут обл зап -->
    https://vercel.com/signup
   <!-- про підключення читай в шостому розілі  -->
-  <!-- https://nextjs.org/learn/dashboard-app/optimizing-fonts-images#why-optimize-images  -->
+<!-- https://nextjs.org/learn/dashboard-app/setting-up-your-database   -->
   
-  
-  19/10
-  6:бд
-
+  20/10
+8
+<!-- https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering -->
+<!-- статичний та дінамічний рендерінг  -->
 
 
