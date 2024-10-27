@@ -18,9 +18,9 @@
   <!-- про підключення читай в шостому розілі  -->
 <!-- https://nextjs.org/learn/dashboard-app/setting-up-your-database   -->
   
-  26/10
-9
-https://nextjs.org/learn/dashboard-app/streaming
+  27/10
+10 
+https://nextjs.org/learn/dashboard-app/partial-prerendering
 <!-- потокова...передача компонента  -->
 
 
