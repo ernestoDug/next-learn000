@@ -18,9 +18,8 @@
   <!-- про підключення читай в шостому розілі  -->
 <!-- https://nextjs.org/learn/dashboard-app/setting-up-your-database   -->
   
-  27/10
-10 
-https://nextjs.org/learn/dashboard-app/partial-prerendering
-<!-- потокова...передача компонента  -->
+02/11
+11 
+https://nextjs.org/learn/dashboard-app/adding-search-and-pagination
 
-
+Додавання сторінки

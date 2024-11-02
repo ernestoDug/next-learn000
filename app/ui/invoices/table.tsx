@@ -4,6 +4,9 @@ import InvoiceStatus from '@/app/ui/invoices/status';
 import { formatDateToLocal, formatCurrency } from '@/app/lib/utils';
 import { fetchFilteredInvoices } from '@/app/lib/data';
 
+
+// два атрибути queryта currentPage, передані до fetchFilteredInvoices()функції,
+//  яка повертає рахунки-фактури, які відповідають запиту.
 export default async function InvoicesTable({
   query,
   currentPage,
